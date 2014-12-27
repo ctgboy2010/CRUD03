@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a8a3e79-2d4c-4385-ab25-ad4544ee36d2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/education/academic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/education/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/personalinfo/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/personalinfo/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/education/connection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/education/delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/personalinfo/delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/personalinfo/info.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/education/list.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/personalinfo/list.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/personalinfo/personal_info.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/education/update.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/personalinfo/update.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/education/view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/personalinfo/view.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contactinfo/add.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contactinfo/connection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contactinfo/contactinfo.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contactinfo/delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contactinfo/info.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contactinfo/list.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contactinfo/update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contactinfo/view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CRUD03.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,24 +35,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="academic.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/education/academic.html">
+      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contactinfo/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="450">
+              <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+              <folding>
+                <marker date="1419721350916" expanded="true" signature="101:453" placeholder="INSERT INTO ..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/education/add.php">
+      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contactinfo/delete.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11568123" vertical-offset="0" max-vertical-offset="450">
-              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="240">
+              <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
               <folding>
-                <marker date="1419646312000" expanded="true" signature="50:444" placeholder="INSERT INTO ..." />
+                <marker date="1419721382608" expanded="true" signature="128:195" placeholder="DELETE FROM ..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contactinfo/list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="1185">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+              <folding>
+                <marker date="1419721382604" expanded="true" signature="379:633" placeholder="UPDATE infor..." />
+                <marker date="1419721382604" expanded="true" signature="712:737" placeholder="SELECT * FRO..information..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contactinfo/update.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="1470">
+              <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+              <folding>
+                <marker date="1419721382596" expanded="true" signature="126:195" placeholder="SELECT * FRO..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contactinfo/view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="270">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <marker date="1419721382600" expanded="true" signature="128:165" placeholder="SELECT * FRO..information..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connection.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contactinfo/connection.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.03731343" vertical-offset="0" max-vertical-offset="402">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,6 +120,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/personalinfo/view.php" />
+        <option value="$PROJECT_DIR$/contactinfo/connection.php" />
+        <option value="$PROJECT_DIR$/contactinfo/add.php" />
+        <option value="$PROJECT_DIR$/contactinfo/delete.php" />
+        <option value="$PROJECT_DIR$/contactinfo/list.php" />
+        <option value="$PROJECT_DIR$/contactinfo/update.php" />
+        <option value="$PROJECT_DIR$/contactinfo/view.php" />
       </list>
     </option>
   </component>
@@ -141,21 +190,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="personalinfo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CRUD03" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CRUD03" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="education" />
+              <option name="myItemId" value="contactinfo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -170,6 +205,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/contactinfo" />
       <recent name="$PROJECT_DIR$/education" />
       <recent name="$PROJECT_DIR$/personalinfo" />
     </key>
@@ -217,7 +253,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="24" width="1325" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981132" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -227,7 +263,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -274,7 +310,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1419646312000" expanded="true" signature="50:444" placeholder="INSERT INTO ..." />
+            <marker date="1419646312000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -317,11 +353,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/education/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11568123" vertical-offset="0" max-vertical-offset="450">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="450">
           <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
           <folding>
-            <marker date="1419646312000" expanded="true" signature="50:444" placeholder="INSERT INTO ..." />
+            <marker date="1419646312000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contactinfo/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="450">
+          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+          <folding>
+            <marker date="1419721350916" expanded="true" signature="101:453" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contactinfo/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="240">
+          <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+          <folding>
+            <marker date="1419721382608" expanded="true" signature="128:195" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contactinfo/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="1185">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <marker date="1419721382604" expanded="true" signature="379:633" placeholder="UPDATE infor..." />
+            <marker date="1419721382604" expanded="true" signature="712:737" placeholder="SELECT * FRO..information..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contactinfo/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="1470">
+          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+          <folding>
+            <marker date="1419721382596" expanded="true" signature="126:195" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contactinfo/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="270">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1419721382600" expanded="true" signature="128:165" placeholder="SELECT * FRO..information..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contactinfo/connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03731343" vertical-offset="0" max-vertical-offset="402">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
