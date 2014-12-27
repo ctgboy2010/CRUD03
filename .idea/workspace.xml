@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a8a3e79-2d4c-4385-ab25-ad4544ee36d2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/training/connection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/training/r_add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/training/r_delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/training/r_list.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/training/r_update.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/training/r_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/training/reference.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/training/t_add.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/training/t_delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/training/t_list.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/training/t_update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/training/t_view.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/training/training.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/training/training.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CRUD03.iws" />
@@ -34,23 +34,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="connection.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/training/connection.php">
+      <file leaf-file-name="t_view.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/training/t_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="120">
-              <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
-              <folding />
+            <state vertical-scroll-proportion="0.5895522" vertical-offset="48" max-vertical-offset="450">
+              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+              <folding>
+                <marker date="1419724560576" expanded="true" signature="75:137" placeholder="SELECT * FRO..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="r_view.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/training/r_view.php">
+      <file leaf-file-name="t_list.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/training/t_list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6268657" vertical-offset="3" max-vertical-offset="405">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            <state vertical-scroll-proportion="-10.625" vertical-offset="360" max-vertical-offset="1170">
+              <caret line="41" column="27" selection-start-line="30" selection-start-column="12" selection-end-line="41" selection-end-column="27" />
               <folding>
-                <marker date="1419723496984" expanded="true" signature="75:137" placeholder="SELECT * FRO..." />
+                <marker date="1419655532000" expanded="true" signature="596:621" placeholder="SELECT * FRO..." />
               </folding>
             </state>
           </provider>
@@ -77,6 +79,7 @@
         <option value="$PROJECT_DIR$/contactinfo/update.php" />
         <option value="$PROJECT_DIR$/contactinfo/view.php" />
         <option value="$PROJECT_DIR$/training/r_view.php" />
+        <option value="$PROJECT_DIR$/training/t_view.php" />
       </list>
     </option>
   </component>
@@ -380,12 +383,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/training/t_add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1419649252000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/training/r_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6268657" vertical-offset="3" max-vertical-offset="405">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.1119403" vertical-offset="0" max-vertical-offset="405">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <marker date="1419723496984" expanded="true" signature="75:137" placeholder="SELECT * FRO..." />
+            <marker date="1419723496984" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training/t_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625" vertical-offset="360" max-vertical-offset="1170">
+          <caret line="41" column="27" selection-start-line="30" selection-start-column="12" selection-end-line="41" selection-end-column="27" />
+          <folding>
+            <marker date="1419655532000" expanded="true" signature="596:621" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training/t_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5895522" vertical-offset="48" max-vertical-offset="450">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <folding>
+            <marker date="1419724560576" expanded="true" signature="75:137" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
