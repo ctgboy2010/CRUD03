@@ -4,7 +4,7 @@
     include('connection.php');
 
     $id=$_GET['id'];
-    $query="SELECT * FROM `contactinfo`.`information` WHERE `information`.`id` = $id";
+    $query="SELECT * FROM `training`.`information` WHERE `information`.`id` = $id";
     $result=mysqli_query($con,$query);
     $rows=mysqli_fetch_array($result);
 

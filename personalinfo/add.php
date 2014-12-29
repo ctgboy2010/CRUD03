@@ -1,7 +1,7 @@
 <?php
 include "config.php";
 
-$query="INSERT INTO `personal_info`.`personalinfo` (`id`, `cname`, `father`, `mother`, `gender`, `religion`, `birth_date`, `nationality`, `national_id`, `birth_reg`, `passport_number`)
+$query="INSERT INTO `training`.`personalinfo` (`id`, `cname`, `father`, `mother`, `gender`, `religion`, `birth_date`, `nationality`, `national_id`, `birth_reg`, `passport_number`)
         VALUES ('', '$_POST[cname]', '$_POST[father]', '$_POST[mother]', '$_POST[gender]', '$_POST[religion]', '$_POST[birth_date]', '$_POST[nationality]', '$_POST[national_id]', '$_POST[birth_reg]', '$_POST[passport_number]');";
 
 if(mysqli_query($con,$query))

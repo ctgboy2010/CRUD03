@@ -1,11 +1,11 @@
 <?php
 //include('per_config');
-$con=mysqli_connect("localhost","root","lict@2","personal_info") or die("Error: ".mysqli_error($con));
+$con=mysqli_connect("localhost","root","lict@2","training") or die("Error: ".mysqli_error($con));
 
 if(isset($_POST['update'])){
     $update_id=$_GET['id'];
     if(isset($update_id)){
-        $sql = "UPDATE `personal_info`.`personalinfo` SET `cname` = '$_POST[cname]', `father` = '$_POST[father]', `mother` = '$_POST[mother]', `gender` = '$_POST[gender]', `religion` = '$_POST[religion]', `birth_date` = '$_POST[birth_date]', `nationality` = '$_POST[nationality]', `national_id` = '$_POST[national_id]', `birth_reg` = '$_POST[birth_reg]', `passport_number` = '$_POST[passport_number]' WHERE `personalinfo`.`id` = $update_id";
+        $sql = "UPDATE `training`.`personalinfo` SET `cname` = '$_POST[cname]', `father` = '$_POST[father]', `mother` = '$_POST[mother]', `gender` = '$_POST[gender]', `religion` = '$_POST[religion]', `birth_date` = '$_POST[birth_date]', `nationality` = '$_POST[nationality]', `national_id` = '$_POST[national_id]', `birth_reg` = '$_POST[birth_reg]', `passport_number` = '$_POST[passport_number]' WHERE `personalinfo`.`id` = $update_id";
         mysqli_query($con,$sql);
     }
 }

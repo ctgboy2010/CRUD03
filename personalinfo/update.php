@@ -1,9 +1,9 @@
 <?php
 //include('connect.php');
-    $con=mysqli_connect("localhost","root","lict@2","personal_info") or die("Error: ".mysqli_error($con));
+    $con=mysqli_connect("localhost","root","lict@2","training") or die("Error: ".mysqli_error($con));
 
     $id=$_GET['id'];
-    $query="SELECT * FROM `personal_info`.`personalinfo` WHERE `personalinfo`.`id` = $id";
+    $query="SELECT * FROM `training`.`personalinfo` WHERE `personalinfo`.`id` = $id";
     $result=mysqli_query($con,$query);
     $rows=mysqli_fetch_array($result);
 

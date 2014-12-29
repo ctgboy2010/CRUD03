@@ -4,12 +4,12 @@
     if(isset($_POST['update'])){
         $update_id=$_GET['id'];
         if(isset($update_id)){
-            $sql = "UPDATE `academic_info`.`information` SET `academic` = '$_POST[academic]', `exam_title` = '$_POST[exam_title]', `subject` = '$_POST[subject]', `institution` = '$_POST[institution]', `result_type` = '$_POST[result_type]', `result` = '$_POST[result]', `scale` = '$_POST[scale]', `year` = '$_POST[year]', `duration` = '$_POST[duration]', `achievement` = '$_POST[achievement]' WHERE `information`.`id` = $update_id";
+            $sql = "UPDATE `training`.`academicinfo` SET `academic` = '$_POST[academic]', `exam_title` = '$_POST[exam_title]', `subject` = '$_POST[subject]', `institution` = '$_POST[institution]', `result_type` = '$_POST[result_type]', `result` = '$_POST[result]', `scale` = '$_POST[scale]', `year` = '$_POST[year]', `duration` = '$_POST[duration]', `achievement` = '$_POST[achievement]' WHERE `academicinfo`.`id` = $update_id";
             mysqli_query($con,$sql);
         }
     }
 
-    $query="SELECT * FROM `information`";
+    $query="SELECT * FROM `academicinfo`";
     $result=mysqli_query($con,$query);
 ?>
 

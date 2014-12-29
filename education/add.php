@@ -1,7 +1,7 @@
 <?php
     include('connection.php');
 
-    $query="INSERT INTO `academic_info`.`information` (`id` ,`academic` ,`exam_title` ,`subject` ,`institution` ,`result_type` ,`result` ,`scale` ,`year` ,`duration` ,`achievement`)
+    $query="INSERT INTO `training`.`academicinfo` (`id` ,`academic` ,`exam_title` ,`subject` ,`institution` ,`result_type` ,`result` ,`scale` ,`year` ,`duration` ,`achievement`)
             VALUES ('', '$_POST[academic]', '$_POST[exam_title]', '$_POST[subject]', '$_POST[institution]', '$_POST[result_type]', '$_POST[result]', '$_POST[scale]', '$_POST[year]', '$_POST[duration]', '$_POST[achievement]');";
 
     if(mysqli_query($con,$query))
